@@ -1,2 +1,3 @@
 ---
-import_task: copy.yml
+- name: importing tasks from copy.yml
+  import_tasks: copy.yml
