@@ -3,3 +3,7 @@
   hosts: all
   tasks:
     - ping:
+- name: webservers
+- hosts : all
+  roles: 
+    - role: webserver
