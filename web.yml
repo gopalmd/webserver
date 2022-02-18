@@ -1,9 +1,9 @@
 ---
 - name: serverping
-  hosts: all
+  hosts: 10.10.1.78 
   tasks:
     - ping:
-- name: webservers
-- hosts : all
+- name: webserver
+- hosts : 10.10.1.78 
   roles: 
     - role: webserver
