@@ -1,6 +1,6 @@
 ---
 - name: copy module demo
-  hosts: all
+  hosts: 10.10.1.78
   vars:
     myfile: "/tmp"
   tasks:
