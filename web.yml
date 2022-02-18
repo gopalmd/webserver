@@ -1,8 +1,4 @@
 ---
-- name: serverping
-  hosts: 10.10.1.78 
-  tasks:
-    - ping:
 - name: webserver
 - hosts: 10.10.1.78 
   roles: 
