@@ -4,6 +4,6 @@
   tasks:
     - ping:
 - name: webserver
-- hosts : 10.10.1.78 
+- hosts: 10.10.1.78 
   roles: 
     - role: webserver
