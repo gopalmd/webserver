@@ -1,6 +1,5 @@
 ---
-- name: alive system
-  #hosts: all
+  hosts:all
 
   tasks:
     - ping:
