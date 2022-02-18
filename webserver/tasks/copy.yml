@@ -1,5 +1,5 @@
 ---
-- name: copy module demo
+- name:  cpmodule demo
   hosts: 10.10.1.78
   vars:
     myfile: "/tmp"
