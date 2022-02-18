@@ -1,5 +1,4 @@
 ---
 
 - name: ping the servers
-  hosts: 10.10.1.78
   ping:
