@@ -1,5 +1,5 @@
 ---
 - name: webserver
-- hosts: 10.10.1.78 
+- hosts: all 
   roles: 
     - role: webserver
