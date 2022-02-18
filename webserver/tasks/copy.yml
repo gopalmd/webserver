@@ -1,13 +1,6 @@
 ---
-- name: cpmodule demo
-  hosts: 10.10.1.78
-  vars:
-    myfile: "/tmp"
+- name: alive system
+  hosts: all
+
   tasks:
-    - name: create a simple text file
-      ansible.builtin.copy:
-        dest: "{{ myfile }}"
-        content: |
-          line 1
-          line 2
-          etc.
+    -ping:
